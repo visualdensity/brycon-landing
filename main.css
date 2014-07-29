@@ -1,0 +1,31 @@
+*,html,body,div,p,a {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #eb1c24;
+}
+a:link,  a:visited,
+a:hover, a:active {
+    color: #eb1c24;
+}
+
+body div.container div {
+    margin: 3em auto;
+    text-align: center;
+}
+body div.container div img {
+    margin: 0 auto 3em;
+    display: block;
+}
+
+body div.container div #mailto {
+    font-size: 24px;
+}
+    body div.container div #mailto:link {
+        text-decoration: none;
+    }
+    body div.container div #mailto:hover {
+        text-decoration: underline;
+    }
