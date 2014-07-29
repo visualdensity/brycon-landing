@@ -22,12 +22,15 @@ body div.container div img {
     display: block;
 }
 
-body div.container div #mailto {
+#mailto {
+    margin-top: 2em;
+}
+#mailto a {
     font-size: 24px;
 }
-    body div.container div #mailto:link {
+    #mailto a:link {
         text-decoration: none;
     }
-    body div.container div #mailto:hover {
+    #mailto a:hover {
         text-decoration: underline;
     }
